@@ -16,7 +16,7 @@ rp(options).then(function(datafile) {
 const optimizelyClientInstance = optimizelySDK.createInstance({
   datafile: datafile
 });
-var attribute = null /* ? */;
+var attributes = null /* ? */;
 
 /********* A/B Test  ********/
 var variation = /* ? */;
