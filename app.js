@@ -93,7 +93,7 @@ appetizer.run().then(function(response) {
 
 // Menu variations
 function menu_1() {
-    console.log(dimColor, `DEBUG: [Variation_1] User "${userId}" has been bucketed in Variation 1`);
+    console.log(dimColor, `DEBUG: For the A/B Test[Variation_1] User "${userId}" has been bucketed in Variation 1`);
     console.log(`       Hi ${userId}!       `);
     console.log("     ~ Optimizeli's ~      ");
     console.log("          Menu 1           ");
@@ -107,7 +107,7 @@ function menu_1() {
 }
 
 function menu_2() {
-  console.log(dimColor, `DEBUG: [Variation_1] User "${userId}" has been bucketed in Variation 2`);
+  console.log(dimColor, `DEBUG: For the A/B Test, [Variation_1] User "${userId}" has been bucketed in Variation 2`);
   console.log(`       Hi ${userId}!    `);
   console.log("~ Welcome to Optimizeli's ~");
   console.log("           Menu 2           ");
