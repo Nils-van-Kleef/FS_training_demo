@@ -107,7 +107,7 @@ function menu_1() {
 }
 
 function menu_2() {
-  console.log(dimColor, `DEBUG: [Variation_1] User "${userId}" has been bucketed in Variation 2`);
+  console.log(dimColor, `DEBUG: [Variation_2] User "${userId}" has been bucketed in Variation 2`);
   console.log(`       Hi ${userId}!    `);
   console.log("~ Welcome to Optimizeli's ~");
   console.log("           Menu 2           ");
